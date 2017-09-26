@@ -10,14 +10,10 @@ public:
         // 先指定 left 的值  為一個小於零的值
         // mid 只能往右 right 只能往左
         
-        
-        int mid;
-        int right;
-        
         for(int left = 0; left<nums.size(); left++){        //left 從 整個陣列的最小開始
             
-            mid = left +1;
-            right = nums.size()-1;       
+            int mid = left +1;
+            int right = nums.size()-1;       
             int temp = 0-nums[left];                         //left + mid + right = 0
         
             if (left>0 && nums[left] == nums[left-1])                //重複跳過 如果大於0 也跳過
