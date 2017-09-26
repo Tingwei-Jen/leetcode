@@ -16,11 +16,9 @@ public:
             int right = nums.size()-1;       
             int temp = 0-nums[left];                         //left + mid + right = 0
         
-            if (left>0 && nums[left] == nums[left-1])                //重複跳過 如果大於0 也跳過
+            if (left>0 && nums[left] == nums[left-1])                //從第二個數字開始 遇到重複跳過 
                 continue;
             
-            
-        
             
             while(mid < right){
             
