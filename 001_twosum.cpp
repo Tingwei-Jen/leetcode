@@ -4,8 +4,8 @@ public:
         
         //當要找東西的時候 用map 的find 是不錯的選項 O(n)
         
-        map<int, int> mymap;                         //map<key, value>  
-        map<int,int>::iterator iter;                 
+        unordered_map<int, int> mymap;                         //map<key, value>  
+        unordered_map<int,int>::iterator iter;                 
         vector<int> ans;
     
         for (int i = 0; i<nums.size(); i++){
@@ -29,9 +29,7 @@ public:
                 mymap[nums[i]] = i;
                 
             }
-            
-             
+              
         }
-        
     }
 };
