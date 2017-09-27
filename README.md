@@ -8,7 +8,7 @@
 # Facebook
 * Divide and Conquer: 282. 23. 215.  practice: 4
 * Dynamic Programming: 91. 10. 121. 139   
-
+* BackTracking: 17. 10.
 
 # two pointers problem
 * type1: 從左右兩邊向中間移動 while(left < right) // ex.twosum, 3sum, 4sum
