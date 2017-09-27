@@ -33,7 +33,7 @@ public:
          if (nums[mid]==target) 
              return mid;
          else if (nums[mid]<target)
-             left = mid + 1;
+             left = mid+1;                  //像是在找左邊界
          else
              right = mid;
             
