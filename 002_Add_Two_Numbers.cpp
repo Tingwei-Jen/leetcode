@@ -10,6 +10,12 @@ class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
       
+        //其实做这种大数加减的题目不管是用的大数组还是链表，都是一样的：
+        //首先做个大循环，对每一位进行操作：
+        //当前位：(A[i]+B[i])%10
+        //进位：（A[i]+B[i]）/10
+        
+        
         
         ListNode *list = new ListNode(0);   //儲存輸出的結果，因為list的指針要不斷往後移，因此用一個假節點方便操作 
         ListNode *res = list;               // 使用一個ListNode來儲存相加的結果
