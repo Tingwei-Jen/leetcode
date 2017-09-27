@@ -1,5 +1,11 @@
 # leetcode
-leetcode
+* leetcode
+
+# Diary Practice
+* 9/26 NO.1. 11. 15. 16. 18. 26. 27
+* 9/27 NO.34. 35. 
+
+
 
 # two pointers problem
 * type1: 從左右兩邊向中間移動 while(left < right) // ex.twosum, 3sum, 4sum
