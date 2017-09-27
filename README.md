@@ -3,7 +3,7 @@
 
 # Diary Practice
 * 9/26 NO.1. 11. 15. 16. 18. 26. 27
-* 9/27 NO.34. 35. 2. 21. 23. 206. 4.
+* 9/27 NO.34. 35. 2. 21. 23. 206. 4. 17.
 
 # Facebook
 * Divide and Conquer: 282. 23. 215.  practice: 4
