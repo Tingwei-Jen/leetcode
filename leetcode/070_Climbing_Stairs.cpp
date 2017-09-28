@@ -13,7 +13,7 @@ public:
         //function: F(i) = F(i-1) + F(i-2)     每一階 只跟其前一階與其前兩階 有關       
         //result:   F(n)
         
-        //O(n)---->O(2)
+        //O(n)---->O(1)
         //state: prev, current
         //initial: prev = 1, current = 1
         //function: current = current + prev
