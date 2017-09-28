@@ -4,12 +4,13 @@
 # Diary Practice
 * 9/26 NO.1. 11. 15. 16. 18. 26. 27
 * 9/27 NO.34. 35. 2. 21. 23. 206. 4. 17.
-
+* 9/28 No.17. 
 # Facebook
+* Freq 前50:
 * Divide and Conquer: 282. 23. 215.  practice: 4
 * Dynamic Programming: 91. 10. 121. 139   
-* BackTracking: 17. 10.
-* DFS/BFS: 17.
+* BackTracking: 17. 10. 211. 78. 79.
+* DFS/BFS: 301. 17. 200. 257. 98. 133. 494
 
 
 
