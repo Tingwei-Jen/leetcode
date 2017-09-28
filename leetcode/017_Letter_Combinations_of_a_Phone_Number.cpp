@@ -6,7 +6,10 @@ public:
         if(digits.size()==0)
             return res;        
         string dict[] = {"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-        addnumberDFS("", 0, digits, res, dict);
+        
+        //addnumberDFS("", 0, digits, res, dict);
+        addnumberBFS(digits, res, dict);
+        
         return res;
         
     }
@@ -29,4 +32,28 @@ public:
             }
         }
     }
+    
+    
+    void addnumberBFS(string digits, vector<string> &res, string dict[]){
+
+        res.push_back("");
+        
+        for(int i=0; i<digits.size();i++){
+            
+            string str = dict[digits[i]-'2'];
+            vector<string> temp;                              //存新加入的node
+                
+            for(int j=0;j<res.size(); j++){                   // 從queue拿出來的字元
+                for(int k=0; k<str.size();k++) {              //從queue出來的字元 後面接了幾個node ex. "a" 後面接了 "ad""ae""af" 三個node
+                
+                    temp.push_back(res[j]+str[k]);  
+                
+                }
+            }
+            
+            res = temp;
+                
+        }
+    }
+    
 };
