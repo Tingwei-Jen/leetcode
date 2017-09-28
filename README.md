@@ -10,7 +10,7 @@
 * Divide and Conquer: 282. 23. 215.            
 ** practice classic: 4
 * Dynamic Programming: 91. 10. 121. 139        
-** practice classic: 70. 53. 121.
+** practice classic: 70. 53.
 
 * BackTracking: 17. 10. 211. 78. 79.
 * DFS/BFS: 301. 17. 200. 257. 98. 133. 494
