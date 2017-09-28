@@ -1,18 +1,19 @@
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
+     
+        int Curmax;
+        int res;
         
-        int result = INT_MIN;                           //不能int reult = 0; 因為有可能比0小
-        int cur_sum = 0;
+        //initial
+        Curmax = nums[0];
+        res = nums[0];
         
-        for(int i=0; i<nums.size();i++){
-            
-            cur_sum = max(cur_sum+nums[i], nums[i]);    //KEY!!  Dynamic Programming ??
-            result = max(result, cur_sum);              //更新result
-            
+        for(int i =1; i<nums.size();i++){      //從1開始遍歷(尋訪)
+        
+            Curmax = max((Curmax + nums[i]), nums[i]);     //更新Curmax
+            res = max(res, Curmax);                        //更新max
         }
-        
-        return result;
-        
+        return res;
     }
 };
