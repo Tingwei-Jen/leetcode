@@ -10,7 +10,7 @@
 * Freq 前50:
 * Divide and Conquer: 282. 23. 215.            
 ** practice classic: 4
-* Dynamic Programming: 91. 10. 121. 139        
+* Dynamic Programming: 91. 10. 121. 139. 494    
 ** practice classic: 70. 53.
 
 * BackTracking: 17. 10. 211. 78. 79.
