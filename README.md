@@ -8,7 +8,7 @@
 * 9/29 No.
 # Facebook
 * Freq 前50:
-* Divide and Conquer: 282. 23. 215.            
+* Divide and Conquer: 282. 23. 215. 218            
 ** practice classic: 4
 * Dynamic Programming: 91. 10. 121. 139. 494    
 ** practice classic: 70. 53.
