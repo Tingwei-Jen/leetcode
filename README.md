@@ -8,11 +8,11 @@
 * 9/29 No.139. 10.
 * 9/30 No.1. 136.
 # Facebook
-## Freq 前50:
+### Freq 前50:
 ### Divide and Conquer: 282. 23. 215. 218            
 #### practice classic: 4
 ### Dynamic Programming: 91. 10. 121. 139. 494    
-####practice classic: 70. 53.
+#### practice classic: 70. 53.
 ### BackTracking: 17. 10. 211. 78. 79.
 ### DFS/BFS: 301. 17. 200. 257. 98. 133. 494
 ### HashTable: 325. 311. 314. 76. 1. 49.
