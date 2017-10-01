@@ -7,7 +7,7 @@
 * 9/28 No.17. 79. 78. 70. 53. 121. 91.
 * 9/29 No.139. 10.
 * 9/30 No.1. 136. 76. 311. 200.
-* 10/1 No.133. 257.
+* 10/1 No.133. 257. 104
 
 # Facebook
 ### Freq 前50:
@@ -20,7 +20,7 @@
 ##### HashTable: 325. 311. 314. 76. 1. 49.
 * practice: 1
 ##### Tree: 297. 257. 173. 543. 285. 98. 236
-
+* practice: 104
 # two pointers problem
 * type1: 從左右兩邊向中間移動 while(left < right) // ex.twosum, 3sum, 4sum
 * type2: in place 交換 設兩個指針 一個指針尋訪vector, 一個指針去找可以用來取代的元素 ex. remove duplicate element
