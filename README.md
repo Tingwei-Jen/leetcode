@@ -22,7 +22,7 @@
 ##### Tree: 297. 257. 173. 543. 285. 98. 236
 * practice: 104
 ##### Binay Search Tree: 98. 173. 235
-* practice: 95. 96. 108
+* practice: 108
 # two pointers problem
 * type1: 從左右兩邊向中間移動 while(left < right) // ex.twosum, 3sum, 4sum
 * type2: in place 交換 設兩個指針 一個指針尋訪vector, 一個指針去找可以用來取代的元素 ex. remove duplicate element
