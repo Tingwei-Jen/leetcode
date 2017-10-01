@@ -19,6 +19,7 @@
 ##### DFS/BFS: 301. 17. 200. 257. 98. 133. 494
 ##### HashTable: 325. 311. 314. 76. 1. 49.
 * practice: 1
+##### Tree: 297. 257. 173. 543. 285. 98. 236
 
 # two pointers problem
 * type1: 從左右兩邊向中間移動 while(left < right) // ex.twosum, 3sum, 4sum
