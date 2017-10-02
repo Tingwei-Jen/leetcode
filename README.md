@@ -12,18 +12,15 @@
 
 # Facebook
 ### Freq 前50:
-##### Divide and Conquer: 282. 23. 215. 218            
-* practice classic: 4
-##### Dynamic Programming: 91. 10. 121. 139. 494    
-* practice classic: 70. 53.
-##### BackTracking: 17. 10. 211. 78. 79.
-##### DFS/BFS: 301. 17. 200. 257. 98. 133. 494
-##### HashTable: 325. 311. 314. 76. 1. 49.
-* practice: 1
-##### Tree: 297. 257. 173. 543. 285. 98. 236
-* practice: 104
-##### Binay Search Tree: 98. 173. 235
-* practice: 108
-# two pointers problem
-* type1: 從左右兩邊向中間移動 while(left < right) // ex.twosum, 3sum, 4sum
-* type2: in place 交換 設兩個指針 一個指針尋訪vector, 一個指針去找可以用來取代的元素 ex. remove duplicate element
+##### Divide and Conquer: 282. 23(D). 215. 218            
+* practice classic: 4(D)
+##### Dynamic Programming: 91(D). 10(D). 121(D). 139(D). 494    
+* practice classic: 70(D). 53(D).
+##### BackTracking: 17(D). 10(D). 211. 78(D). 79(D).
+##### DFS/BFS: 301. 17(D). 200. 257. 98(D). 133(D). 494
+##### HashTable: 325. 311(D). 314. 76(D). 1(D).
+* practice: 1(D)
+##### Tree: 297. 257(D). 173. 543(D). 285. 98(D). 236(D)
+* practice: 104(D)
+##### Binay Search Tree: 98(D). 173. 235(D)
+* practice: 108(D)
