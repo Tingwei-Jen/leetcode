@@ -20,8 +20,8 @@
 ##### DFS/BFS: 301. 17(D). 200. 257. 98(D). 133(D). 494
 ##### HashTable: 325. 311(D). 314. 76(D). 1(D).
 * practice: 1(D)
-##### Tree: 297. 257(D). 173. 543(D). 285. 98(D). 236(D)
+##### Tree: 297. 257(D). 543(D). 236(D)
 * practice: 104(D)
-##### Binay Search Tree: 98(D). 173. 235(D)
+##### Binay Search Tree: 98(D). 173. 235(D). 285.
 * practice: 108(D)
 ##### Design: 297. 173. 341. 211. 
