@@ -10,35 +10,21 @@ class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
        
-        if (!head){
-            return NULL;
+        if (head==NULL || head->next==NULL) return head;
+        
+        // 順序：prev cur next 一次移動一格
+        ListNode* prev = NULL;             
+        ListNode* cur = head;
+        ListNode* next = cur->next;
+        
+        while(cur!=NULL){           
+            cur->next = prev;          //ex. [3,2,1] 3原先指向2  變成指向null
+            prev = cur;                //prev 往前移動 現在是3的位置
+            cur = next;                //cur 往前移動 現在是2的位置
+            if(cur != NULL){
+                next = cur->next;
+            }           
         }
-        
-        if (!head->next){
-            return head;
-        }
-        
-        ListNode *prev = head;
-        ListNode *cur = head->next;
-        prev->next = NULL;
-        
-        //ex [3,2,1]
-        //1. temp = 2, prev = 3, cur = 1   ---> 2,3,1 --> prev = temp, prev = 2
-        //2. temp = 1, prev = 2,  再把2接到1的後面 -->1,2,3
-        
-        while(cur !=NULL){
-            
-            ListNode *temp = cur;
-            cur = cur->next;
-            temp->next = prev;
-            prev = temp;
-            
-        }
-        
         return prev;
-        
-
-        
-        
     }
 };
