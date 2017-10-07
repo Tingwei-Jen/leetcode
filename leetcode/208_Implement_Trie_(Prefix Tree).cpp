@@ -40,7 +40,7 @@ public:
     
     
     /** Returns if the word is in the trie. */
-    bool search(string word) {
+    /*bool search(string word) {
         
         TrieNode* current = root;
         for(int i=0;i<word.size();i++){
@@ -50,9 +50,19 @@ public:
                 current = current->child[word[i]];      
         }
         return current->endOfWord;
+    }*/
+    
+    bool search(string word){
+        return searchDFS(word, root, 0);   
     }
+    bool searchDFS(string word, TrieNode* node, int index){
     
-    
+        if(index==word.size()) return node->endOfWord;
+        if(node->child.find(word[index])==node->child.end()) 
+            return false;
+        
+        return searchDFS(word, node->child[word[index]], index+1);
+    }
     
     /** Returns if there is any word in the trie that starts with the given prefix. */
     bool startsWith(string prefix) {
