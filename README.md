@@ -19,8 +19,8 @@
 ### Freq 前50:
 ##### Divide and Conquer: 282. 23(D). 215. 218            
 * practice classic: 4(D)
-##### Dynamic Programming: 91(D). 10(D). 121(D). 139(D). 494    
-* practice classic: 70(D). 53(D).
+##### Dynamic Programming: 91(D). 10(D). 121(D). 139(D). 494(D). 85.
+* practice classic: 70(D). 53(D). 279. 198.
 ##### BackTracking: 17(D). 10(D). 211. 78(D). 79(D).
 ##### DFS/BFS: 301. 17(D). 200. 257. 98(D). 133(D). 494
 ##### HashTable: 325. 311(D). 314. 76(D). 1(D).
