@@ -15,14 +15,14 @@
 * 10/6 No.80. 314. 161.
 * 10/7 No.208. 211. 49. 50. 71. 90. 325. 
 * 10/8 No.494. 416.
-* 10/9 No.211. 621.
+* 10/9 No.211. 621. 277.
 
 # Facebook
 ### Freq 前50:
 ##### Divide and Conquer: 282. 23(D). 215. 218            
 * practice classic: 4(D)
-##### Dynamic Programming: 91(D). 10(D). 121(D). 139(D). 494(D). 85.
-* practice classic: 70(D). 53(D). 279. 198.
+##### Dynamic Programming: 91(D). 10(D). 121(D). 139(D). 494(D).
+* practice classic: 70(D). 53(D).
 ##### BackTracking: 17(D). 10(D). 211. 78(D). 79(D).
 ##### DFS/BFS: 301. 17(D). 200. 257. 98(D). 133(D). 494
 ##### HashTable: 325. 311(D). 314. 76(D). 1(D).
