@@ -26,7 +26,7 @@ public:
         int left = 0; 
         int right = nums.size()-1;
         
-        while(left<right){
+        while(left<=right){                       //因為是找空格插入 所以要比平常多加個等於
             
          int mid = left + (right-left)/2;   
          
@@ -35,11 +35,11 @@ public:
          else if (nums[mid]<target)
              left = mid+1;                  //像是在找左邊界
          else
-             right = mid;
+             right = mid-1;                  
             
         }
         
-        return right;                        // [1,3], if target =2, right 的位置插入 target
+        return left;                        // [1,3] target=2 最後 left 會在3 的位置 所以插入2時 是left的位置
         
     }
 };
