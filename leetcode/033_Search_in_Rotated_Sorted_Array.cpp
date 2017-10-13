@@ -12,7 +12,7 @@ public:
             if(nums[mid]==target) return mid;
             if(nums[left] <= nums[mid]){                          //mid 在左半           
                 if(nums[left]<=target && nums[mid]>target)        //left target mid
-                    right = mid;
+                    right = mid-1;
                 else                                              //left mid target
                     left = mid+1;
     
@@ -20,7 +20,7 @@ public:
                 if(nums[right]>=target && nums[mid]<target)        //mid target right
                     left = mid+1;
                 else                                              //target mid right
-                    right = mid;
+                    right = mid-1;
             }
         }
         
