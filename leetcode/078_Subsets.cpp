@@ -25,21 +25,17 @@ public:
         }
     }
     
-    void addnumberDFSmethod2(vector<vector<int>> &res, vector<int> &nums, int index, vector<int> cur){
-        
-        if(index == nums.size()) //跑完 做紀錄
+    void addnumberDFSmethod2(vector<vector<int>> &res, vector<int> &nums, int index, vector<int> cur){       
+        if(index == nums.size()){
             res.push_back(cur);
-        else{
-            
-            //not chooose
-            addnumberDFSmethod2(res, nums, index+1, cur);
-            // choose
-            cur.push_back(nums[index]);
-            addnumberDFSmethod2(res, nums, index+1, cur);
-            cur.pop_back();
-            
-        }
-        
+            return;            
+        } //跑完 做紀錄
+
+        //not chooose
+        addnumberDFSmethod2(res, nums, index+1, cur);
+        // choose
+        cur.push_back(nums[index]);
+        addnumberDFSmethod2(res, nums, index+1, cur);
+        cur.pop_back();
     }
-    
 };
